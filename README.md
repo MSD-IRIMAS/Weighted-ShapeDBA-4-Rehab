@@ -39,7 +39,7 @@ The different parameters include:
 This code utilizes the hydra configuration setup, simply edit the parameters of the configuration file ('config/config_hydra.yaml`) and run the following:
 
 ```
-python main_data_extension.py
+python main_regression.py
 ```
 
 It creates and trains and avaluates a regressor for all version of the dataset (original + extended version). For now, only the FCN regressor is available.
