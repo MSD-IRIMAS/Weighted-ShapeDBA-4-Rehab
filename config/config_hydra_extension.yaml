@@ -1,0 +1,20 @@
+hydra :
+  job :
+    name : extension-wsdba-noisy
+  run :
+    dir : exps/${hydra.job.name}
+
+# The directory where is the original data
+original_dir: 'Kimore_resampled/'
+
+# The directory where the results are stored
+res_dir: results
+
+# Exercise to consider
+exercise : 1
+
+# Number of folds per exercise
+num_folds : 5
+
+# List of number of neighbors for weighted shape DBA
+num_neighbors_wsdba: [1,2,3,4,5]

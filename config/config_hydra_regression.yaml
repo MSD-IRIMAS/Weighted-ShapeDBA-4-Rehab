@@ -1,0 +1,23 @@
+hydra :
+  job :
+    name : regression
+  run :
+    dir : exps/${hydra.job.name}
+
+# The directory where the results are stored
+res_dir: '/home/myuser/code/results'
+
+# Exercise to consider
+exercise : 1
+
+# Number of folds per exercise
+num_folds : 5
+
+# List of number of neighbors for weighted shape DBA
+num_neighbors_wsdba: [1]
+
+# Number of epochs for training the regressor
+nb_epochs: 2
+
+# Batch size for training the regressor
+batch_size: 16
