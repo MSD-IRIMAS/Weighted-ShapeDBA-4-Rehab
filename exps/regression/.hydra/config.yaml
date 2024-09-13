@@ -1,0 +1,7 @@
+res_dir: results
+exercise: 1
+num_folds: 5
+num_neighbors_wsdba:
+- 1
+nb_epochs: 2
+batch_size: 16

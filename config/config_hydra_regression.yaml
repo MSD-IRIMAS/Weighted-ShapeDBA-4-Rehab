@@ -5,7 +5,8 @@ hydra :
     dir : exps/${hydra.job.name}
 
 # The directory where the results are stored
-res_dir: '/home/myuser/code/results'
+# res_dir: '/home/myuser/code/results'
+res_dir: 'results'
 
 # Exercise to consider
 exercise : 1
