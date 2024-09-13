@@ -40,8 +40,6 @@ def main(args: DictConfig):
                             best_name='best_model_base',x_test=x_test,y_test=y_test)
         maes_array[0,0] = mae_base
         
-        
-        
         # load noisy train data
         x_train_noisy = np.load(data_dir + str(fold) + '/x_train_noisy_fold' + str(fold) + '.npy')
         y_train_noisy = np.load(data_dir + str(fold) + '/y_train_noisy_fold' + str(fold) + '.npy')
