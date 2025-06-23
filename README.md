@@ -1,6 +1,6 @@
 # Weighted-ShapeDBA-4-Rehab
 
-This is the code of our paper "[Weighted Average of Human Motion Sequences for Improving Rehabilitation Assessment](hhttps://ecml-aaltd.github.io/aaltd2024/articles/Fawaz_AALTD24.pdf)" accepted at the [9th International Workshop on Advanced Analytics and Learning on Temporal Data](https://ecml-aaltd.github.io/aaltd2024/), at [ECML-PKDD 2024](https://2024.ecmlpkdd.org/)<br>
+This is the code of our paper "[Weighted Average of Human Motion Sequences for Improving Rehabilitation Assessment](https://doi.org/10.1007/978-3-031-77066-1_8)" [[pdf]](https://ecml-aaltd.github.io/aaltd2024/articles/Fawaz_AALTD24.pdf) accepted at the [9th International Workshop on Advanced Analytics and Learning on Temporal Data](https://ecml-aaltd.github.io/aaltd2024/), at [ECML-PKDD 2024](https://2024.ecmlpkdd.org/)<br>
 This work was done by [Ali Ismail-Fawaz](https://hadifawaz1999.github.io/), [Maxime Devanne](https://maxime-devanne.com/), [Stefano Berretti](http://www.micc.unifi.it/berretti/), [Jonathan Weber](https://www.jonathan-weber.eu/) and [Germain Forestier](https://germain-forestier.info/).<br><br>
 
 ## Requirements
